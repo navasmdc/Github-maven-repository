@@ -31,6 +31,10 @@ gradlePlugin {
             id = "github-publisher"
             implementationClass = "com.pagofx.githubmvnrepository.GithubPublisherPlugin"
         }
+        register("github-repository") {
+            id = "github-repository"
+            implementationClass = "com.pagofx.githubmvnrepository.GithubRepositoryPlugin"
+        }
     }
 }
 
@@ -58,8 +62,8 @@ gradlePlugin {
 //        }
 //    }
 //}
-group = "com.pagofx"
-version = "1.0.2"
+group = "com.github"
+version = "0.0.1"
 
 //publishing {
 //    publications {
