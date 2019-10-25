@@ -1,8 +1,6 @@
 
 plugins {
-//    kotlin("jvm") version "1.3.40"
     `kotlin-dsl`
-//    java
     `maven-publish`
 
 }
@@ -27,12 +25,12 @@ dependencies {
 
 gradlePlugin {
     plugins {
-        register("github-publisher") {
-            id = "github-publisher"
+        register("com.gc.github-publisher") {
+            id = "com.gc.github-publisher"
             implementationClass = "com.gc.githubmvnrepository.GithubPublisherPlugin"
         }
-        register("github-repository") {
-            id = "github-repository"
+        register("com.gc.github-repository") {
+            id = "com.gc.github-repository"
             implementationClass = "com.gc.githubmvnrepository.GithubRepositoryPlugin"
         }
     }
