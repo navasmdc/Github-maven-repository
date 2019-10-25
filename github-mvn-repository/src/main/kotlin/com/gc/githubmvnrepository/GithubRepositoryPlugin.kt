@@ -1,15 +1,13 @@
-package com.pagofx.githubmvnrepository
+package com.gc.githubmvnrepository
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
-import org.gradle.api.artifacts.repositories.MavenArtifactRepository
 import org.gradle.api.credentials.HttpHeaderCredentials
 import org.gradle.authentication.http.HttpHeaderAuthentication
 import org.gradle.internal.impldep.com.google.common.annotations.VisibleForTesting
 import org.gradle.kotlin.dsl.maven
 import org.gradle.kotlin.dsl.register
 import org.gradle.kotlin.dsl.repositories
-import java.lang.IllegalStateException
 
 class GithubRepositoryPlugin : Plugin<Project> {
 

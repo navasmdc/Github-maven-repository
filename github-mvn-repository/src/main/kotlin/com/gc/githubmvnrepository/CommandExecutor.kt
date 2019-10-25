@@ -1,4 +1,4 @@
-package com.pagofx.githubmvnrepository
+package com.gc.githubmvnrepository
 
 import java.io.File
 

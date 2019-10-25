@@ -1,4 +1,4 @@
-package com.pagofx.githubmvnrepository
+package com.gc.githubmvnrepository
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.verify

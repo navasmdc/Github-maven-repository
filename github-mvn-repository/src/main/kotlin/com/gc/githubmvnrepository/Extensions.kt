@@ -1,4 +1,4 @@
-package com.pagofx.githubmvnrepository
+package com.gc.githubmvnrepository
 
 import org.gradle.api.Project
 import org.gradle.api.plugins.ExtensionAware

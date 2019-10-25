@@ -1,4 +1,4 @@
-package com.pagofx.githubmvnrepository
+package com.gc.githubmvnrepository
 
 import org.gradle.api.DefaultTask
 import org.gradle.api.tasks.TaskAction

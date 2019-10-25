@@ -29,61 +29,14 @@ gradlePlugin {
     plugins {
         register("github-publisher") {
             id = "github-publisher"
-            implementationClass = "com.pagofx.githubmvnrepository.GithubPublisherPlugin"
+            implementationClass = "com.gc.githubmvnrepository.GithubPublisherPlugin"
         }
         register("github-repository") {
             id = "github-repository"
-            implementationClass = "com.pagofx.githubmvnrepository.GithubRepositoryPlugin"
+            implementationClass = "com.gc.githubmvnrepository.GithubRepositoryPlugin"
         }
     }
 }
 
-//apply(plugin = "maven-publish")
-
-//val sourcesJar by tasks.registering(Jar::class) {
-//    classifier = "sources"
-//    from(sourceSets.main.get().allSource)
-//}
-
-
-
-//publishing {
-//    repositories {
-//        maven {
-////            name = "mvnrepository"
-//            // change to point to your repo, e.g. http://my.org/repo
-//            url = uri("../../mvn-repository")
-//        }
-//    }
-//    publications {
-//        register("mavenJava", MavenPublication::class) {
-//            from(components["java"])
-//            artifact(sourcesJar.get())
-//        }
-//    }
-//}
-group = "com.github"
-version = "0.0.1"
-
-//publishing {
-//    publications {
-//        plug
-//        plugin(MavenPublication) {
-//            groupId publishGroup
-//                    artifactId project.name
-//                    version publishVersionName
-//                    from components.java
-//        }
-//    }
-//
-//    repositories {
-//        maven {
-//            name 'Artifactory'
-//            url publishReleaseRepositoryUrl
-//                    credentials {
-//                        username = project.artifactoryUser
-//                        password = project.artifactoryPassword
-//                    }
-//        }
-//    }
-//}
+group = "com.gc"
+version = "1.0.0"

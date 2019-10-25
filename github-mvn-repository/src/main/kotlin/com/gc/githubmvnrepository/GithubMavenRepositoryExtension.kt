@@ -1,4 +1,4 @@
-package com.pagofx.githubmvnrepository
+package com.gc.githubmvnrepository
 
 open class GithubMavenRepositoryExtension (
     var token: String? = null,
