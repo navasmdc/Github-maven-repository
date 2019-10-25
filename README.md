@@ -1,6 +1,6 @@
 # Github maven repository
 This library provives two different gradle plugins to handle a maven repository created in Github.
-See [this section](#howtocreatemavenrepositoryongithub) in order to create a private maven repository in your Github Account.
+See [this section](#how-to-create-a-maven-repository-on-github) in order to create a private maven repository in your Github Account.
 
 ## How to use
 
