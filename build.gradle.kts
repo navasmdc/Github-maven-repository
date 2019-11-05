@@ -4,8 +4,6 @@ buildscript {
 
     val kotlinVersion = "1.3.40"
 
-//    apply from: "gradle-scripts/dependencies.gradle"
-
     repositories {
         google()
         jcenter()
@@ -15,11 +13,9 @@ buildscript {
         classpath("com.android.tools.build:gradle:3.4.2")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
         classpath("digital.wup:android-maven-publish:3.6.2")
-//        classpath "com.gc:resourcesgenerator:$publishVersionName"
+        classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:1.+")
     }
 }
-
-//apply from: "$rootDir/gradle-scripts/dependencies.gradle"
 
 allprojects {
     repositories {

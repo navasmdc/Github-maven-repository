@@ -34,6 +34,7 @@ githubMavenRepository {
 
 ```kotlin
 githubMavenRepository {
+
     repository = "mvn-repo"
     githubUser = "navasmdc"
     token = "30071199e8cccb69a5b17b46166824a94748dd66"
